@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#quotes {
+    padding: 0 0 0 0;
+    margin: 300px auto 300px auto;
+    background-position: center center;
+    background-size: cover;
+}
+#quoteButton, #twitterButton {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    background-color:white;
+    border: none;
+    border-radius: 15px;
+}
+
+#quoteButton:hover, #twitterButton:hover {background-color:#74b9ff}
+#quoteButton:active, #twitterButton:active {
+    background-color: #74b9ff;
+    box-shadow: 0 5px #74b9ff;
+    transform: translateY(4px);
+}
+#quotes p{
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
+
+
+
